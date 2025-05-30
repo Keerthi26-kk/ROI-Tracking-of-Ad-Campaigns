@@ -4,15 +4,13 @@ This SAS project analyzes advertising campaign data and calculates the **Return 
 
 ---
 
-## 📌 What is ROI?
+##  What is ROI?
 
 **Return on Investment (ROI)** is a key performance indicator used to evaluate the profitability of an investment, in this case, an advertising campaign.
 
 ### ROI Formula:
 
-\[
-\text{ROI} = \frac{\text{Revenue} - \text{AdSpend}}{\text{AdSpend}}
-\]
+ROI = {(Revenue - Adspend)/(Adspend)} * 100%
 
 - ROI is expressed as a **percentage**.
 - A positive ROI indicates a profitable campaign; a negative ROI indicates a loss.
@@ -20,7 +18,7 @@ This SAS project analyzes advertising campaign data and calculates the **Return 
 
 ---
 
-## ❓ Why Use ROI in Marketing?
+##  Why Use ROI in Marketing?
 
 ROI is essential for marketers and business leaders to:
 
@@ -31,7 +29,7 @@ ROI is essential for marketers and business leaders to:
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 **File Name**: `ad_campaign_data.csv`  
 **Columns**:
@@ -52,7 +50,7 @@ ROI is essential for marketers and business leaders to:
 
 ---
 
-## ⚙️ SAS Workflow
+##  SAS Workflow
 
 1. **Import Data**: Reads the CSV using `PROC IMPORT`
 2. **Data Preparation**: Calculates ROI and campaign duration
@@ -62,7 +60,7 @@ ROI is essential for marketers and business leaders to:
 
 ---
 
-## 📈 Output Example
+##  Output Example
 
 A sample of the final output table:
 
@@ -73,7 +71,7 @@ A sample of the final output table:
 
 ---
 
-## 🔍 Visualization
+##  Visualization
 
 Optional ROI distribution plot using SAS ODS Graphics:
 
